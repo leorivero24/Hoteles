@@ -1,0 +1,324 @@
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+}
+
+.header {
+    background: #972700;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 27rem;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    font-size: 14px;
+}
+
+.logo {
+    margin-left: 65px;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 81%;
+    height: auto;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    width: 100px;
+    border: solid 1px #eee;
+    padding: 10px;
+}
+
+th {
+    background-color: #972700;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+tr:hover {
+    background-color: #DDDDDD;
+}
+
+.main {
+    padding-top: 5rem;
+}
+
+.icon-bar {
+    text-align: right;
+}
+
+.linea1 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 70px;
+}
+
+.post h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.fotoHotel {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 30px;
+}
+
+
+/*.linea2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 30px;
+}*/
+
+.content h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.description {
+    color: dimgray;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.page-description {
+    margin-left: 2rem;
+    color: darkslategray;
+    line-height: 1.5rem;
+}
+
+.imagen-desc-1 {
+    max-height: 527px;
+    max-width: 350px;
+    border-radius: 2%;
+    margin-left: 4.7rem;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.imagen-desc-1:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+.imagen-desc-2 {
+    max-height: 527px;
+    max-width: 350px;
+    border-radius: 2%;
+    margin-left: 2.1rem;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.imagen-desc-2:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+.imagen-desc-3 {
+    max-height: 527px;
+    max-width: 350px;
+    border-radius: 2%;
+    margin-left: 2rem;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.imagen-desc-3:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+.end-image {
+    padding-top: 5rem;
+    max-width: 1260px;
+    max-height: 486px;
+
+
+}
+
+.end-title {
+    text-align: center;
+    font-size: 30px;
+    color: #972700;
+}
+
+.feature-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+    background: #972700;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15rem;
+}
+
+.llegar {
+    margin-left: 13.5rem;
+    font-size: 21px;
+    color: #972700;
+    display: inline-block;
+}
+
+.llegar1 {
+    color: dimgray;
+    margin-left: 13.7rem;
+    display: inline-block;
+}
+
+.mapas {
+    margin-left: 10rem;
+    font-size: 21px;
+    color: #972700;
+    display: inline-block;
+}
+
+.mapas1 {
+    color: dimgray;
+    margin-left: 10rem;
+    display: inline-block;
+}
+
+.hacer {
+    margin-left: 10rem;
+    font-size: 21px;
+    color: #972700;
+}
+
+.hacer1 {
+    color: dimgray;
+    margin-left: 7rem;
+    display: inline-block;
+}
+
+.gastronomia {
+    margin-left: 13.5rem;
+    font-size: 21px;
+    color: #972700;
+    display: inline-block;
+}
+.alojarse{
+    margin-bottom: 20px;
+    margin-left: 10rem;
+    font-size: 21px;
+    color: #972700;
+}
+.alojarse1{
+    color: dimgray;
+    margin-left: 12rem;
+    display: inline-block;
+}
+.clima{
+    margin-left: 11.5rem;
+    font-size: 21px;
+    color: #972700;
+}
+.clima1{
+    color: dimgray;
+    margin-left: 9rem;
+    display: inline-block;
+}
+.cta {
+    background-color: #972700;
+    padding: 25px 0;
+  }
+  
+  .cta h2 {
+    margin-bottom: 5px;
+  }
+  
+  .cta h2,
+  .cta p {
+    color: #fff;
+  }
+  
+  .cta p {
+    margin-bottom: 0;
+    opacity: .75;
+  }
+  
+  .cta .btn-ghost {
+    position: relative;
+    top: 13px;
+  }
+  .btn {
+    background-color: #972700;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    color: #fff;
+    padding: 15px 45px;
+    border-radius: 50px;
+  }
+  
+  .btn:hover {
+    background-color: #481b0b;
+    color: #fff;
+  }
+  
+  .btn:focus {
+    color: #fff;
+  }
+  
+  .btn-ghost {
+    border: 3px solid #fff;
+    background-color: transparent;
+  }
+  
+  .btn-ghost:hover {
+    background-color: #fff;
+    color: #972700;
+  }
+  
+  
