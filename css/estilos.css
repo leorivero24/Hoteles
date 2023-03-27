@@ -44,6 +44,7 @@ body {
 
 .logo {
     margin-left: 65px;
+    
 }
 
 .banner {
@@ -53,9 +54,11 @@ body {
     width: 81%;
     height: auto;
 }
+
 .aloj{
     margin-left: 205px;
 }
+
 table {
     margin-left: auto;
     margin-right: auto;
@@ -204,11 +207,11 @@ tr:hover {
     line-height: 70px;
     border-radius: 50%;
     display: inline-block;
-    margin-left: 15rem;
+    margin-left: 27rem;
 }
 
 .llegar {
-    margin-left: 13.5rem;
+    margin-left: 25rem;
     font-size: 21px;
     color: #972700;
     display: inline-block;
@@ -216,12 +219,12 @@ tr:hover {
 
 .llegar1 {
     color: dimgray;
-    margin-left: 13.7rem;
+    margin-left: 25rem;
     display: inline-block;
 }
 
 .mapas {
-    margin-left: 10rem;
+    margin-left: 22rem;
     font-size: 21px;
     color: #972700;
     display: inline-block;
@@ -229,47 +232,47 @@ tr:hover {
 
 .mapas1 {
     color: dimgray;
-    margin-left: 10rem;
+    margin-left: 22rem;
     display: inline-block;
 }
 
 .hacer {
-    margin-left: 10rem;
+    margin-left: 22rem;
     font-size: 21px;
     color: #972700;
 }
 
 .hacer1 {
     color: dimgray;
-    margin-left: 7rem;
+    margin-left: 19rem;
     display: inline-block;
 }
 
 .gastronomia {
-    margin-left: 13.5rem;
+    margin-left: 25rem;
     font-size: 21px;
     color: #972700;
     display: inline-block;
 }
 .alojarse{
     margin-bottom: 20px;
-    margin-left: 10rem;
+    margin-left: 22rem;
     font-size: 21px;
     color: #972700;
 }
 .alojarse1{
     color: dimgray;
-    margin-left: 12rem;
+    margin-left: 24rem;
     display: inline-block;
 }
 .clima{
-    margin-left: 11.5rem;
+    margin-left: 24rem;
     font-size: 21px;
     color: #972700;
 }
 .clima1{
     color: dimgray;
-    margin-left: 9rem;
+    margin-left: 21rem;
     display: inline-block;
 }
 .cta {
@@ -322,5 +325,4 @@ tr:hover {
     background-color: #fff;
     color: #972700;
   }
-  
   
